@@ -2,5 +2,9 @@
 class Puppy
   attr_accessor :name, :breed, :age_in_months
 
-  
+  def initialize
+    @name = name
+    @breed = breed
+    @age_in_months = age_in_months
+  end
 end
